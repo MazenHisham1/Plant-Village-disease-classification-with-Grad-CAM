@@ -2,9 +2,6 @@
 
 Classification of 38 plant disease and healthy-leaf classes from the **PlantVillage** dataset using TensorFlow/Keras. The project compares a custom CNN trained from scratch against a fine-tuned **EfficientNetB0**, explains the predictions with **Grad-CAM**, and ships a **Streamlit** demo that accepts an uploaded image or a camera photo.
 
-<p align="center">
-  <img src="results/model_comparison.png" width="650" alt="CNN vs Transfer Learning comparison">
-</p>
 
 ---
 
@@ -39,12 +36,6 @@ Evaluated on a held-out test set of **8,146 images** (15% stratified split).
 - Transfer learning improves macro F1 by about **10 points** over the CNN trained from scratch.
 - The CNN has a noticeably lower macro precision (0.876) than recall (0.925). Its weakest classes are `Raspberry___healthy` (F1 0.70), `Grape___healthy` (0.72), `Apple___Apple_scab` (0.79) and `Potato___Late_blight` (0.79), where healthy-class predictions absorb errors from other classes.
 - EfficientNetB0 has an F1 of 0.97 or higher on 37 of 38 classes. The hardest class is `Corn___Cercospora_leaf_spot Gray_leaf_spot` (F1 0.93), which it sometimes confuses with Northern Leaf Blight, a visually similar corn disease.
-
-### Confusion matrices (normalized)
-
-| Custom CNN | Transfer Learning |
-|:---:|:---:|
-| <img src="results/cnn/confusion_matrix_normalized.png" width="420"> | <img src="results/transfer/confusion_matrix_normalized.png" width="420"> |
 
 ### Explainability (Grad-CAM)
 
