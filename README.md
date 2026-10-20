@@ -41,10 +41,6 @@ Evaluated on a held-out test set of **8,146 images** (15% stratified split).
 
 Grad-CAM highlights the leaf regions that contributed most to each prediction, which helps check that the models focus on lesions rather than on the background.
 
-<p align="center">
-  <img src="results/gradcam/cnn_vs_transfer_gradcam.png" width="520" alt="Grad-CAM comparison">
-</p>
-
 ---
 
 ## Dataset
