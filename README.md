@@ -2,9 +2,6 @@
 
 Classification of 38 plant disease and healthy-leaf classes from the **PlantVillage** dataset using TensorFlow/Keras. The project compares a custom CNN trained from scratch against a fine-tuned **EfficientNetB0**, explains the predictions with **Grad-CAM**, and ships a **Streamlit** demo that accepts an uploaded image or a camera photo.
 
-
----
-
 ## Highlights
 
 - **99.35% test accuracy** and **0.991 macro F1** with transfer learning (EfficientNetB0).
