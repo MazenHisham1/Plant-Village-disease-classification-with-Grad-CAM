@@ -1,0 +1,11 @@
+{
+  "model": "transfer",
+  "accuracy": 0.9934937392585318,
+  "top5_accuracy": 1.0,
+  "precision_macro": 0.9931665544247428,
+  "recall_macro": 0.9898793729871258,
+  "f1_macro": 0.991370142836137,
+  "precision_weighted": 0.9936223019757695,
+  "recall_weighted": 0.9934937392585318,
+  "f1_weighted": 0.9934756828345129
+}

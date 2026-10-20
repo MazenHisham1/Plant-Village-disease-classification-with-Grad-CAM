@@ -1,0 +1,11 @@
+{
+  "model": "cnn",
+  "accuracy": 0.9129634176282838,
+  "top5_accuracy": 0.9970537687208446,
+  "precision_macro": 0.8762094690733531,
+  "recall_macro": 0.9249214868406511,
+  "f1_macro": 0.8922148342183892,
+  "precision_weighted": 0.9264988910590594,
+  "recall_weighted": 0.9129634176282838,
+  "f1_weighted": 0.9150997694268617
+}
